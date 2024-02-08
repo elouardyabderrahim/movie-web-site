@@ -6,7 +6,9 @@ import com.api.movies.repository.ReviewRepository;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ReviewService {
 
     private final ReviewRepository reviewService;
